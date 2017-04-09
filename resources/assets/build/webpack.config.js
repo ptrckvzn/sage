@@ -32,8 +32,7 @@ let webpackConfig = {
       {
         test: /\.js$/,
         exclude: [/(node_modules|bower_components)(?![/|\\](bootstrap|foundation-sites))/],
-        loader: 'buble',
-        options: { objectAssign: 'Object.assign' },
+        loader: 'babel',
       },
       {
         test: /\.css$/,
