@@ -5,6 +5,8 @@
 * Sass [7-1 architecture](https://github.com/HugoGiraudel/sass-boilerplate)
 * [Bourbon](https://github.com/thoughtbot/bourbon)
 * [Bitters](https://github.com/thoughtbot/bitters)
+* [Rucksack](https://rucksackcss.org)
+* [sanitize.css](https://jonathantneal.github.io/sanitize.css/)
 
 # [Sage](https://roots.io/sage/)
 [![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
