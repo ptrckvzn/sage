@@ -23,7 +23,8 @@
   height: auto;
 }
 
-@include media-breakpoint-up(sm) {
+@include media('>sm') {
+  // Only float if not on an extra small device
   .alignleft {
     float: left;
     margin-right: ($spacer / 2);
@@ -37,20 +38,22 @@
 
 /** Captions */
 .wp-caption {
-  @extend .figure;
+  display: inline-block;
 }
 
 .wp-caption img {
-  @extend .figure-img;
-  @extend .img-fluid;
+  margin-bottom: ($spacer / 2);
+  line-height: 1;
+  max-width: 100%;
+  height: auto;
 }
 
 .wp-caption-text {
-  @extend .figure-caption;
+  font-size: 0.85rem;
 }
 
 /** Text meant only for screen readers */
 .screen-reader-text {
-  @extend .sr-only;
-  @extend .sr-only-focusable;
+  @include sr-only;
+  @include sr-only-focusable;
 }

@@ -1,4 +1,20 @@
-@import "common/variables";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+/* Import npm dependencies */
+@import "~sanitize.css";
+@import "~bourbon/core/bourbon";
+@import "~include-media/dist/include-media";
+@import "base/buttons";
+@import "base/fonts";
+@import "base/forms";
+@import "base/helpers";
+@import "base/layout";
+@import "base/lists";
+@import "base/media";
+@import "base/tables";
+@import "base/typography";
 
 /** Import everything from autoload */
 @import "./autoload/**/*";
@@ -12,10 +28,6 @@
 // @import "~some-node-module";
 
 /** Import theme styles */
-@import "common/global";
-@import "components/buttons";
-@import "components/comments";
-@import "components/forms";
 @import "components/wp-classes";
 @import "layouts/header";
 @import "layouts/sidebar";
@@ -23,3 +35,9 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+
+// @link https://github.com/HugoGiraudel/sass-boilerplate
+// @import "pages/..."
+// @import "themes/..."
+// @import "vendor/..."
+// @import "vendor-extensions/..."
