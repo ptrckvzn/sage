@@ -40,7 +40,7 @@ See a working example at [roots-example-project.com](https://roots-example-proje
 Make sure all dependencies have been installed before moving on:
 
 * [WordPress](https://wordpress.org/) >= 4.7
-* [PHP](http://php.net/manual/en/install.php) >= 7.0
+* [PHP](http://php.net/manual/en/install.php) >= 7.0 (with [`php-mbstring`](http://php.net/manual/en/book.mbstring.php) enabled)
 * [Composer](https://getcomposer.org/download/)
 * [Node.js](http://nodejs.org/) >= 6.9.x
 * [Yarn](https://yarnpkg.com/en/docs/install)
@@ -57,7 +57,7 @@ $ composer create-project roots/sage your-theme-name dev-master
 During theme installation you will have the options to:
 
 * Update theme headers (theme name, description, author, etc.)
-* Select a CSS framework (Bootstrap, Foundation, Tachyons, none)
+* Select a CSS framework (Bootstrap, Bulma, Foundation, Tachyons, none)
 * Add Font Awesome
 * Configure Browsersync (path to theme, local development URL)
 
