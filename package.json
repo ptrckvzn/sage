@@ -106,9 +106,9 @@
     "yargs": "~11.0.0"
   },
   "dependencies": {
-    "jquery": "^3.3.1",
     "bourbon": "5.0.0",
     "include-media": "^1.4.9",
+    "jquery": "^3.3.1",
     "sanitize.css": "^5.0.0"
   }
 }
