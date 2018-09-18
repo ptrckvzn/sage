@@ -10,10 +10,10 @@ module.exports = ({ file, options }) => {
     rucksack: rucksack(),
     parser: options.enabled.optimize ? 'postcss-safe-parser' : undefined,
     plugins: {
-      cssnano: options.enabled.optimize ? cssnanoConfig : false,
       autoprefixer: true,
       lost: { /* ...options */ },
       'rucksack-css': true,
+      cssnano: options.enabled.optimize ? cssnanoConfig : false,
     },
   };
 };
