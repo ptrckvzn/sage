@@ -40,3 +40,12 @@ hr {
   border-top: 0;
   margin: $base-spacing 0;
 }
+
+// stylelint-disable
+
+// https://twitter.com/LeaVerou/status/1045768279753666562
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+// stylelint-enable
