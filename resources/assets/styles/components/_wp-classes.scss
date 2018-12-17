@@ -23,7 +23,7 @@
   height: auto;
 }
 
-@include media('>sm') {
+@include media(">sm") {
   // Only float if not on an extra small device
   .alignleft {
     float: left;
